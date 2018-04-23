@@ -1,0 +1,98 @@
+ .install-icon{
+	float: right;
+	display: block;
+	height:50px ;
+	width: 20px;
+	background: url("../images/my/nav_set_icon@2x.png") no-repeat center;
+	background-size:18px;
+}
+.my-boxall{
+	margin-top: 60px;
+	position: relative;
+}
+.mylogin-right{
+	float: right;
+	display: block;
+	height:24px ;
+	width: 50px;
+	background: url("../images/my/login_right_icon@2x.png") no-repeat right center;
+	background-size:12px;
+} 
+.mylogin-right-to{
+	height:64px ;
+}
+.my-infor-li22{
+	font-size: 14px;
+	flex:1;
+	text-align: center;
+}
+.text-change{
+	font-size: 20px;
+	margin-right: 4px;
+	display: inline-block;
+	height: 32px;line-height: 32px;
+}
+.click-islogin{
+	position: relative;
+	height:130px;
+}
+.yes-login{
+	display: none;
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+}
+.no-login{
+	position: absolute;
+	top:0;
+	left:0;
+	right:0;
+}
+.my-box-information{
+	padding: 12px 12px;
+	margin-bottom: 6px;
+	background-color: #ffffff;
+}
+.myhead-img{
+	width: 64px;
+	float: left;
+	margin-right: 4px;
+}
+.mybox-inf{
+	height: 64px;
+	line-height: 64px;
+}
+.my-box-ul>li:nth-child(2){
+	background: url("../images/my/content_list_icon01@2x.png") no-repeat 12px;
+	background-size:18px;
+	background-color: #ffffff;
+}
+.my-box-ul>li:nth-child(3){
+	background: url("../images/my/content_list_icon02@2x.png") no-repeat 12px;
+	background-size:18px;
+	background-color: #ffffff;
+}
+.my-box-ul>li:nth-child(4){
+	background: url("../images/my/content_list_icon05@2x.png") no-repeat 12px;
+	background-size:18px;
+	background-color: #ffffff;
+}
+.my-box-ul>li:nth-child(5){
+	background: url("../images/my/content_list_icon03@2x.png") no-repeat 12px;
+	background-size:18px;
+	background-color: #ffffff;
+}
+.my-box-ul>li:nth-child(6){
+	background: url("../images/my/content_list_icon04@2x.png") no-repeat 12px;
+	background-size:18px;
+	background-color: #ffffff;
+}
+.contain-my-box{
+	font-size: 14px;
+	line-height: 24px;
+	padding: 12px 12px 12px 34px;
+    margin-bottom:6px ;
+    text-align: left;
+ }
+ 

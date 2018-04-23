@@ -1,0 +1,96 @@
+/*预约页*/
+.order-top1{
+	text-align: center;
+}
+.order-top .title{
+	font-size: 18px;
+	font-weight: bold;
+}
+.order-time{
+	float: right;
+	padding-left: 14px;
+	background: url("../images/booking/content_icon@2x.png") no-repeat 0 5px;
+	background-size: 10px;
+}
+.order-text1{
+	color: #646464;
+}
+.order-text2{
+	text-indent: 2em;
+	color: #646464;
+	font-size:14px ;
+}
+.order-adress{
+	font-size:15px ;
+	font-weight: 600;
+}
+.order-text3,.conttop-text2{
+	 color:#ea5404;
+}
+.order-text4 ,.conttop-text2{
+	float: right;
+}
+.btn-order{
+	float: right;
+	width: 55px;
+	height: 24px;
+	text-align: center;
+	background-color: #ea5404;
+	color: #ffffff;
+	font-size: 12px;
+	line-height: 24px;
+	border-radius: 5px;
+}
+/*订单取消页面*/
+.cancel_top ,.contract-top{
+	height:50px ;
+	padding: 0 12px;
+	text-align: center;
+	line-height: 50px;
+	background-color: #ffffff;
+	border-bottom: 1px solid #d6d7dc;
+}
+.finish-footer{
+	display: flex;
+	border-top: 1px solid #d6d7dc;
+	border-bottom:none;
+}
+.finish-footer li{
+	flex:1;
+	color: #ea5404;
+}
+.cancel_top .title,.contract-top .title{
+	font-size: 18px;
+	font-weight: bold;
+}
+.cancel-cotainer .title{
+	height: 32px;
+	line-height: 32px;
+	padding-left: 12px;
+	color: #b4b4b4;
+	font-size: 12px;
+}
+.cancelinf-li{
+	float: left;
+	min-width: 50%;
+}
+.cancel-ul1{
+	background-color: #ffffff;
+	padding: 10px 12px 12px 12px;
+}
+.cancelpeople-flex1{
+	flex:1;
+}
+.cancelpeople-li1{
+	background: url("../images/booking-detail/content_img_user@2x.png") no-repeat center;
+	background-size: 40px;
+}
+.cancel-telephone{
+	background: url("../images/booking-detail/content_icon_call@2x.png") no-repeat center;
+	background-size: 20px;
+}
+
+.cancelpeople-flex5{
+	flex:5;
+	border-right:1px solid #e1e1e1 ;
+}

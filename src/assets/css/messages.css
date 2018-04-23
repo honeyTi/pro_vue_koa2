@@ -1,0 +1,97 @@
+.information-nav{
+	width: 255px;
+	overflow: hidden;
+	border: 1px solid #ea5404;
+	border-radius: 3px;
+	margin: 10px auto;
+}
+.information-nav li{
+	width:85px;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	text-align: center;
+	color: #ea5404;
+}
+
+.information-contain{
+	margin: 10px 10px 0 10px;
+	border: 1px solid #d6d7dc ;
+	background: #ffffff;
+}
+.information-contain-li1{
+	height: 38px;
+	line-height: 17px;
+	box-sizing: border-box;
+	border-bottom:1px solid #d6d7dc ;
+	padding: 10px;
+}
+.information-contain-li1 .title{
+	float: left;
+	font-size: 14px;
+}
+.information-contain-li2{
+	font-size: 12px;
+	padding: 10px;
+	color: #979797;
+
+}
+.information-contain-li2 p{
+	text-indent: 2em;
+	font-size: 0.9rem;
+	line-height: 18px;
+}
+.inf-float{
+	font-size: 12px;
+	float: right;
+	color: #979797;
+}
+.inf-float2{
+	text-align: right;
+	float: none;
+
+}
+.click-all{
+    width:100%;
+    position: absolute;
+    top:0;bottom: 0;
+}
+.tenant-basic{
+   width:44px ;
+   padding: 1px 0;
+   box-sizing: border-box;
+   text-align: center;
+   background-color: #15b755;
+   color: #ffffff;
+   border-radius: 3px;
+}
+.btn-know{
+   width: 80px;
+   height:25px ;
+   background-color: #efeff4;
+   line-height: 25px;
+   text-align: center;
+   color: #646464;
+   text-indent:0;
+   font-size: 12px;
+}
+.information-contain .btn-center{
+   text-align: center;
+   padding-top:10px;
+   position: relative;
+}
+.inf-float3{
+	line-height: 25px;
+	position: absolute;
+	font-size: 0.9rem;
+	top:10px;
+	right:0;
+}
+/*点击样式*/
+.information-nav .active{
+	background:#ea5404;
+	color: #ffffff;;
+}
+.body-hide{
+	overflow: hidden;
+}

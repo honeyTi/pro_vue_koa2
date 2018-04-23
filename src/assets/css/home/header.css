@@ -1,0 +1,63 @@
+.search{
+    position:absolute;
+    top:1rem;
+    width: 100%;
+    z-index: 1;
+}
+.search-box{
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    /*flex属性是flex-grow, flex-shrink 和 flex-basis的简写，默认值为0 1 auto*/
+    flex: 0 0 3rem;
+    padding: 0 1rem;
+    height: 3rem;
+    margin-right: 1.2rem;
+    margin-left: 1.2rem;
+    border-radius: .3rem;
+    background-color: #fff;
+}
+
+.search-left,
+.search-input,
+.returnBtn,
+.searchBtn{
+    float: left;
+    margin-top: .6rem;
+    height: 1.8rem;
+    line-height: 1.8rem;
+}
+.search-left,
+.searchBtn{
+    /*flex-shrink: 0;*/
+    flex-grow: 1;
+    transition: width .6s;
+    overflow: hidden;
+}
+.search-left{
+    /*margin-right: 1rem;*/
+    /*width: 5rem;*/
+    text-align: center;
+}
+.returnBtn{
+    flex-grow: 1;
+    transition: width .6s;
+    overflow: hidden;
+    display: none;
+}
+.searchBtn{
+    margin-left: 1rem;
+    color: #666;
+    width: 3rem;
+}
+
+/*移除搜索框的叉叉图标*/
+/*::-webkit-search-cancel-button { display: none; }*/
+.search-input{
+    flex-grow: 2;
+    width: 100%;
+    padding-left: .5rem;
+    border-radius: .3rem;
+}
+.search-input input{
+    width: 86%;
+}
