@@ -1,6 +1,6 @@
 <template>
     <!-- <div id="map" class="map"></div> -->
-    <baidu-map class="bm-view" :center="center" :zoom="12">
+    <baidu-map class="bm-view" :center="cityChange" :zoom="12">
         <bm-geolocation anchor="BMAP_ANCHOR_BOTTOM_RIGHT" :showAddressBar="true" :autoLocation="true"
         @locationSuccess="getCityName"></bm-geolocation>
   </baidu-map>
@@ -11,6 +11,7 @@
 
 export default {
     name:'map',
+    props:['cityChange'],
     data() {
         return {
             cityName:'',
@@ -30,9 +31,7 @@ export default {
             this.$emit("cityName",this.cityName.substr(0,2));
         },
         print:function(value){
-            console.log('点击的是——'+value);
             this.center = value;
-            console.log('定位的是——'+this.center);
         }
     }
     

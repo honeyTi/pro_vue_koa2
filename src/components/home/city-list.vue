@@ -30,7 +30,11 @@ export default {
     methods:{
         changeCity:function(e){
             this.now = e.target.innerText;
+            console.log(this.now);
             this.$root.Hub.$emit('cityChange',this.now);
+            this.$router.push({name: 'home', params:{
+                city: this.now
+            }});
         },
     }
 }
